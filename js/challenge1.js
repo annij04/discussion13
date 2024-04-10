@@ -9,7 +9,4 @@ toggleEmailField.addEventListener('change', function() {
     if (toggleEmailField.checked) {
         emailBox.classList.remove('hidden');
     } 
-    else {
-        emailBox.classList.add('hidden');
-    }
 });
